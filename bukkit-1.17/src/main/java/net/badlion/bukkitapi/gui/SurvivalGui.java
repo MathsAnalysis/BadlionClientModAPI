@@ -125,7 +125,7 @@ public class SurvivalGui implements Listener {
 			itemMeta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
 
 			if (enabled) {
-				itemMeta.addEnchant(Enchantment.DURABILITY, 1, true);
+				itemMeta.addEnchant(Enchantment.getByName("DURABILITY"), 1, true);
 				itemMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
 			}
 
